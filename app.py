@@ -16,7 +16,7 @@ st.set_page_config(
 # ==========================
 model = joblib.load("model_linear_regression.pkl")
 
-df = pd.read_csv("D:\PrediksiHargaMotor\dataset_harga_motor.csv")
+df = pd.read_csv("dataset_harga_motor.csv")
 
 nama_motor = sorted(df["name"].unique())
 
